@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Linux Terminal Dashboard Pro",
+  "version": "8.0.0",
+  "description": "Professional Linux-style terminal dashboard with modern tabs",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [
+    "storage",
+    "topSites",
+    "bookmarks"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
